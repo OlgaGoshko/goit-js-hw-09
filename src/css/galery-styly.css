@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 156px;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.gallery-image {
+  display: block;
+  width: 360px;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  cursor: zoom-in;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.modal-img {
+  display: block;
+  width: 1112px;
+  max-width: 90vw;
+  max-height: 90vh;
+}
